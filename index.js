@@ -7,7 +7,7 @@ const mainRouter = require('./src/routes/main.router');
 
 app.use(mainRouter);
 
-app.use(require("./src/routes/productos.router"));
+app.use('/productos',require("./src/routes/productos.router"));
 
 
 
